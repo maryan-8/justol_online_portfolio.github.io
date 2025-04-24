@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotations Page</title>
+    <style>
+        /* Internal Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            background-image: url('bg1.jpg'), url('bg2.jpg'), url('bg3.jpg'); /* Add your images */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Home button */
+        .back-button {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .back-button:hover {
+            background-color: #555;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3rem;
+            margin: 20px 0;
+            font-weight: bold;
+            color: #2f4f4f;
+        }
+
+        /* Style for each quote */
+        .quote {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border: 2px solid #333;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+            overflow: auto;
+        }
+
+        /* Starting letter of each quote */
+        .quote .start-letter {
+            font-family: 'Georgia', serif;
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #8b0000;
+        }
+
+        /* Source styling */
+        .quote .source {
+            font-family: 'Arial', sans-serif;
+            font-size: 0.9rem;
+            color: #4682b4;
+            display: block;
+            text-align: right;
+        }
+
+        .quote:hover {
+            background-color: rgba(255, 255, 255, 0.9);
+            transform: scale(1.02);
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        /* Scrollbar styling */
+        .quote {
+            height: auto;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Home Button -->
+    <a href="projects.html" class="back-button">Back</a>
+
+    <h1>Points to Ponder</h1>
+
+    <!-- Quotations Section -->
+    <div class="quote">
+        <span class="start-letter">A</span> man is but the product of his thoughts; what he thinks, he becomes. 
+        <span class="source">- Mahatma Gandhi</span>
+    </div>
+    <div class="quote">
+        <span class="start-letter">A</span>nyone who has never made a mistake has never tried anything new. 
+        <span class="source">- Albert Einstein</span>
+    </div>
+    <div class="quote">
+        <span class="start-letter">B</span>e a student as long as you still have something to learn, and this will mean all your life. 
+        <span class="source">- Henry L. Doherty</span>
+    </div>
+    <div class="quote">
+        <span class="start-letter">D</span>on’t say you don’t have enough time. You have exactly the same number of hours per day that were given to Helen Keller, Pasteur, Michelangelo, Mother Teresa, Leonardo da Vinci, Thomas Jefferson, and Albert Einstein. 
+        <span class="source">- H. Jackson Brown Jr.</span>
+    </div>
+    <div class="quote">
+        <span class="start-letter">E</span>ducation is the most powerful weapon, which you can use to change the world. 
+        <span class="source">- Nelson Mandela</span>
+    </div>
+    <div class="quote">
+        <span class="start-letter">E</span>ducation is what survives when what has been learned has been forgotten. 
+        <span class="source">- B. F. Skinner</span>
+    </div>
+    <div class="quote">
+        <span class="start-letter">E</span>ven if you’re on the right track, you’ll get run over if you just sit there. 
+        <span class="source">- Will Rogers</span>
+    </div>
+    <div class="quote">
+        <span class="start-letter">I</span>f you don’t go after what you want, you’ll never have it. If you don’t ask, the answer is always no. If you don’t step forward, you’re always in the same place. 
+        <span class="source">- Nora Roberts</span>
+    </div>
+    <div class="quote">
+        <span class="start-letter">I</span>f you hear a voice within you say ‘you cannot paint,’ then by all means paint, and that voice will be silenced. 
+        <span class="source">- Vincent Van Gogh</span>
+    </div>
+    <div class="quote">
+        <span class="start-letter">L</span>earn from yesterday, live for today, hope for tomorrow. 
+        <span class="source">- Albert Einstein</span>
+    </div>
+    <div class="quote">
+        <span class="start-letter">L</span>ive as if you were to die tomorrow. Learn as if you were to live forever. 
+        <span class="source">- Mahatma Gandhi</span>
+    </div>
+    <div class="quote">
+        <span class="start-letter">S</span>uccess consists of going from failure to failure without loss of enthusiasm. 
+        <span class="source">- Winston Churchill</span>
+    </div>
+    <div class="quote">
+        <span class="start-letter">T</span>he art of being wise is the art of knowing what to overlook. 
+        <span class="source">- William James</span>
+    </div>
+    <div class="quote">
+        <span class="start-letter">T</span>he best way to predict your future is to create it. 
+        <span class="source">- Abraham Lincoln</span>
+    </div>
+    <div class="quote">
+        <span class="start-letter">T</span>he difference between ordinary and extraordinary is that little extra. 
+        <span class="source">- Unknown</span>
+    </div>
+    <div class="quote">
+        <span class="start-letter">T</span>he journey of a thousand miles begins with a single step. 
+        <span class="source">- Lao Tzu</span>
+    </div>
+    <div class="quote">
+        <span class="start-letter">Y</span>our time is limited, don’t waste it living someone else’s life. Don’t be trapped by dogma, which is living the result of other people’s thinking. 
+        <span class="source">- Steve Jobs</span>
+    </div>
+
+</body>
+</html>
