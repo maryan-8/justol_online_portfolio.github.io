@@ -1,31 +1,56 @@
-<!-- index.html (Home Page) -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home | Your Name</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Justol Online Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <nav>
+    <div class="logo">Justol Portfolio</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#youtube">YouTube</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
   <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hi, I'm Justol. Here's a showcase of my work and interests!</p>
   </header>
-  <main>
-    <section class="hero">
-      <h1>Welcome to My Portfolio</h1>
-      <p>I am a Computer Engineering Student in University of Bohol. Explore my work and experience.</p>
-      <img src="https://media.discordapp.net/attachments/1339234626874507317/1340332235756142684/IMG20240519152112.jpg?ex=680c47eb&is=680af66b&hm=63d8832fbccd625b2780e7270eda6aa8a9251b4aaaefaa32994372f7efbfd111&=&format=webp&width=530&height=708"
-      alt="Photo" class="hero-image" />
-    </section>
-  </main>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Write a short bio about yourself here. Mention your skills, interests, and goals.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div id="projects-container"></div>
+  </section>
+
+  <section id="youtube">
+    <h2>My YouTube Channel</h2>
+    <a class="youtube-link" href="https://www.youtube.com/your-channel-link" target="_blank">
+      Visit my YouTube channel
+    </a>
+    <div class="youtube-embed">
+      <!-- Example embed: Replace with your own video or playlist -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed?listType=user_uploads&list=your-channel-name" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+  </section>
+  
+  <footer>
+    <p>&copy; 2025 Justol. All rights reserved.</p>
+  </footer>
+  <script src="projects.js"></script>
 </body>
 </html>
