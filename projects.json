@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Portfolio Website",
+    "description": "My personal website built with HTML, CSS, and JavaScript.",
+    "image": "images/portfolio.png",
+    "link": "https://your-portfolio-link.com"
+  },
+  {
+    "title": "Weather App",
+    "description": "A simple weather app using OpenWeatherMap API.",
+    "image": "images/weatherapp.png",
+    "link": "https://your-weather-app-link.com"
+  }
+]
